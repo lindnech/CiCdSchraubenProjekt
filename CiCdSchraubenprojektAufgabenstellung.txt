@@ -1,0 +1,60 @@
+# CiCd/Schraubenprojekt 
+(Techstarter Aufgabe 18.9.2023)
+
+## Aufgaben:
+
+	Wir bauen eine CI/CD Pipeline in AWS:
+
+### [Teil 1: CodeCommit + CodeBuild]
+
+## 1. Erstelle einen IAM User der Admin Rechte für CodeCommit hat (+ggf. allgemeine Admin Rechte für Zukunftssicherheit).
+
+	*(Info für mich: [commit_benutzer] mit folgenden rechten versehen:
+	- AdministratorAccess
+	- AWSCodeBuildAdminAccess
+	- AWSCodeCommitFullAccess
+zusätzlich: HTTPS-Git-Anmeldeinformation für AWS CodeCommit erstellt.
+
+[X] Erledigt
+
+
+## 2. Erstelle ein Code Commit Repository und Clone dieses auf deinen Rechner.
+
+	*(Info an mich: Repository name auf AwsCodeCommit: [Schrauben_Projekt] mit folgenden 
+HTTPS link:	https://git-codecommit.eu-central-1.amazonaws.com/v1/repos/Schrauben_Projekt
+
+[X] Erledigt
+
+
+## 3. Erstelle einen IAM User mit Admin Rechte für CodeBuild hat (+ggf. allgemeine Admin Rechte für Zukunftssicherheit)
+
+*(Info für mich: [build_benutzer] mit folgenden rechten versehen:
+	- AdministratorAccess
+	- AWSCodeBuildAdminAccess
+
+zusätzlich: Zugriffsschlüssel erstellt.
+
+[X] Erledigt
+
+
+## 4. Erstelle einen CodeBuild Service, welcher Terraform Code aus deinem CodeCommit Repository Builden kann. Ein Beispiel für den dafür Pushbaren Code:
+https://github.com/16uhrpasing/aws_cicd_terraform_example/tree/main
+
+[X] Erledigt
+
+## 5. Baue ein Terraform-Beispielprojekt genau so wie im Architektur-Bild im Anhang nach und Deploye diese über die erstellte Pipeline.
+
+[ ] Erledigt
+
+#### Abgabe:
+
+## 1. Terraform Datei mit Konfiguration wie im Bild + S3 Backend (50p)
+
+[ ] Erledigt
+
+## 2. Screenshot vom CodeBuild Ende (Siehe bsp im Anhang)
+
+[ ] Erledigt
+
+
+© Luka Juric Techstarter
